@@ -1,0 +1,1028 @@
+Full Terminal thing error:
+
+# Check configuration tokens
+# Ensure build layout
+# Check configuration tokens
+# Read available permissions from api-versions.xml
+# Preparing build
+# Check requirements for android
+# Search for Git (git)
+#  -> found at /usr/bin/git
+# Search for Cython (cython)
+#  -> found at /Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/bin/cython
+# Search for Java compiler (javac)
+#  -> found at /usr/bin/javac
+# Search for Java keytool (keytool)
+#  -> found at /usr/bin/keytool
+# Install platform
+# Run 'git config --get remote.origin.url'
+# Cwd /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+https://github.com/kivy/python-for-android.git
+# Run 'git branch -vv'
+# Cwd /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+* master 5a94d074 [origin/master] Merge pull request #2244 from Chronolife-team/native_services_upstream
+# Run '/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/bin/python -m pip install -q  \'appdirs\' \'colorama>=0.3.3\' \'jinja2\' \'six\' \'enum34; python_version<"3.4"\' \'sh>=1.10; sys_platform!="nt"\' \'pep517<0.7.0"\' \'toml\''
+# Cwd None
+# Apache ANT found at /Users/jaydenl/.buildozer/android/platform/apache-ant-1.9.4
+# Android SDK found at /Users/jaydenl/.buildozer/android/platform/android-sdk
+# Android NDK found at /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/android-ndk-r19c
+# Recommended android's NDK version by p4a is: 19c
+# Read available permissions from api-versions.xml
+# Check application requirements
+# Check garden requirements
+# Compile platform
+# Run '/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/bin/python -m pythonforandroid.toolchain create --dist_name=kvcalc --bootstrap=sdl2 --requirements=python3,kivy --arch armeabi-v7a --copy-libs --color=always --storage-dir="/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a" --ndk-api=21'
+# Cwd /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py:84: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+ ​import imp
+[WARNING]: $ANDROIDNDKVER is deprecated and no longer necessary, the value you set is ignored
+[INFO]:    Will compile for the following archs: armeabi-v7a
+[INFO]:    Found Android API target in $ANDROIDAPI: 27
+[INFO]:    Available Android APIs are (27)
+[INFO]:    Requested API target 27 is available, continuing.
+[INFO]:    Found NDK dir in $ANDROIDNDK: /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/android-ndk-r19c
+[INFO]:    Found NDK version 19c
+[INFO]:    Getting NDK API version (i.e. minimum supported API) from user argument
+[INFO]:    ccache is missing, the build will not be optimized in the future.
+[INFO]:    Found the following toolchain versions: ['4.9']
+[INFO]:    Picking the latest gcc toolchain, here 4.9
+[WARNING]: Missing executable: libtoolize is not installed
+[INFO]:    No existing dists meet the given requirements!
+[INFO]:    No dist exists that meets your requirements, so one will be built.
+[INFO]:    Found a single valid recipe set: ['hostpython3', 'libffi', 'openssl', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3', 'python3', 'sdl2', 'setuptools', 'six', 'pyjnius', 'android', 'kivy']
+[INFO]:    The selected bootstrap is sdl2
+[INFO]:    # Creating dist with sdl2 bootstrap
+[INFO]:    Dist will have name kvcalc and requirements (python3, kivy)
+[INFO]:    Dist contains the following requirements as recipes: ['hostpython3', 'libffi', 'openssl', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3', 'python3', 'sdl2', 'setuptools', 'six', 'pyjnius', 'android', 'kivy']
+[INFO]:    Dist will also contain modules (certifi) installed from pip
+[INFO]:    Dist will be build in mode debug
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/bootstrap_builds/sdl2
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Recipe build order is ['hostpython3', 'libffi', 'openssl', 'sdl2_image', 'sdl2_mixer', 'sdl2_ttf', 'sqlite3', 'python3', 'sdl2', 'setuptools', 'six', 'pyjnius', 'android', 'kivy']
+[INFO]:    The requirements (certifi) were not found as recipes, they will be installed with pip.
+[INFO]:    # Downloading recipes 
+[INFO]:    Downloading hostpython3
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 76 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/hostpython3
+[INFO]:    -> running basename https://www.python.org...(and 34 more)
+[INFO]:    hostpython3 download already cached, skipping                       
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading libffi
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 71 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/libffi
+[INFO]:    -> running basename https://github.com/lib...(and 33 more)
+[INFO]:    libffi download already cached, skipping                            
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading openssl
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 72 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/openssl
+[INFO]:    -> running basename https://www.openssl.or...(and 30 more)
+[INFO]:    openssl download already cached, skipping                           
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading sdl2_image
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 75 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/sdl2_image
+[INFO]:    -> running basename https://www.libsdl.or...(and 52 more)
+[INFO]:    sdl2_image download already cached, skipping                        
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading sdl2_mixer
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 75 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/sdl2_mixer
+[INFO]:    -> running basename https://www.libsdl.or...(and 52 more)
+[INFO]:    sdl2_mixer download already cached, skipping                        
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading sdl2_ttf
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 73 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/sdl2_ttf
+[INFO]:    -> running basename https://www.libsdl.org...(and 48 more)
+[INFO]:    sdl2_ttf download already cached, skipping                          
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading sqlite3
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 72 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/sqlite3
+[INFO]:    -> running basename https://www.sqlite.org...(and 37 more)
+[INFO]:    sqlite3 download already cached, skipping                           
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading python3
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 72 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/python3
+[INFO]:    -> running basename https://www.python.org...(and 34 more)
+[INFO]:    python3 download already cached, skipping                           
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading sdl2
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 69 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/sdl2
+[INFO]:    -> running basename https://www.libsdl.org...(and 26 more)
+[INFO]:    sdl2 download already cached, skipping                              
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading setuptools
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 75 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/setuptools
+[INFO]:    -> running basename https://pypi.python.o...(and 53 more)
+[INFO]:    setuptools download already cached, skipping                        
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading six
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 68 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/six
+[INFO]:    -> running basename https://pypi.python.or...(and 41 more)
+[INFO]:    six download already cached, skipping                               
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading pyjnius
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 72 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/pyjnius
+[INFO]:    -> running basename https://github.com/kiv...(and 27 more)
+[INFO]:    pyjnius download already cached, skipping                           
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Downloading android
+[INFO]:    Skipping android download as no URL is set
+[INFO]:    Downloading kivy
+[INFO]:    -> running mkdir -p /Users/jaydenl/Dev/ki...(and 69 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/packages/kivy
+[INFO]:    -> running basename https://github.com/kiv...(and 25 more)
+[INFO]:    kivy download already cached, skipping                              
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    # Building all recipes for arch armeabi-v7a
+[INFO]:    # Unpacking recipes
+[INFO]:    Unpacking hostpython3 for armeabi-v7a
+[INFO]:    -> running basename https://www.python.org...(and 34 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop
+[INFO]:    hostpython3 is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Unpacking libffi for armeabi-v7a
+[INFO]:    -> running basename https://github.com/lib...(and 33 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21
+[INFO]:    libffi is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Unpacking openssl for armeabi-v7a
+[INFO]:    -> running basename https://www.openssl.or...(and 30 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21
+[INFO]:    openssl is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Unpacking sdl2_image for armeabi-v7a
+[INFO]:    -> running basename https://www.libsdl.or...(and 52 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/bootstrap_builds/sdl2/jni
+[INFO]:    sdl2_image is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Unpacking sdl2_mixer for armeabi-v7a
+[INFO]:    -> running basename https://www.libsdl.or...(and 52 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/bootstrap_builds/sdl2/jni
+[INFO]:    sdl2_mixer is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Unpacking sdl2_ttf for armeabi-v7a
+[INFO]:    -> running basename https://www.libsdl.org...(and 48 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/bootstrap_builds/sdl2/jni
+[INFO]:    sdl2_ttf is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Unpacking sqlite3 for armeabi-v7a
+[INFO]:    -> running basename https://www.sqlite.org...(and 37 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21
+[INFO]:    sqlite3 is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Unpacking python3 for armeabi-v7a
+[INFO]:    -> running basename https://www.python.org...(and 34 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21
+[INFO]:    python3 is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Unpacking sdl2 for armeabi-v7a
+[INFO]:    -> running basename https://www.libsdl.org...(and 26 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/bootstrap_builds/sdl2/jni
+[INFO]:    sdl2 is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Unpacking setuptools for armeabi-v7a
+[INFO]:    -> running basename https://pypi.python.o...(and 53 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/setuptools/armeabi-v7a__ndk_target_21
+[INFO]:    setuptools is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Unpacking six for armeabi-v7a
+[INFO]:    -> running basename https://pypi.python.or...(and 41 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/six/armeabi-v7a__ndk_target_21
+[INFO]:    six is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Unpacking pyjnius for armeabi-v7a
+[INFO]:    -> running basename https://github.com/kiv...(and 27 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/pyjnius-sdl2/armeabi-v7a__ndk_target_21
+[INFO]:    pyjnius is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    -> running rm -rf /Users/jaydenl/Dev/kivy...(and 120 more)
+[INFO]:    -> running cp -a /Users/jaydenl/Dev/kivy/...(and 234 more)
+[INFO]:    Unpacking kivy for armeabi-v7a
+[INFO]:    -> running basename https://github.com/kiv...(and 25 more)
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/kivy/armeabi-v7a__ndk_target_21
+[INFO]:    kivy is already unpacked, skipping
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    # Prebuilding recipes
+[INFO]:    Prebuilding hostpython3 for armeabi-v7a
+[INFO]:    hostpython3 has no prebuild_armeabi_v7a, skipping
+[INFO]:    Applying patches for hostpython3[armeabi-v7a]
+[INFO]:    hostpython3 already patched, skipping
+[INFO]:    Prebuilding libffi for armeabi-v7a
+[INFO]:    libffi has no prebuild_armeabi_v7a, skipping
+[INFO]:    Applying patches for libffi[armeabi-v7a]
+[INFO]:    libffi already patched, skipping
+[INFO]:    Prebuilding openssl for armeabi-v7a
+[INFO]:    openssl has no prebuild_armeabi_v7a, skipping
+[INFO]:    Prebuilding sdl2_image for armeabi-v7a
+[INFO]:    sdl2_image has no prebuild_armeabi_v7a, skipping
+[INFO]:    Applying patches for sdl2_image[armeabi-v7a]
+[INFO]:    sdl2_image already patched, skipping
+[INFO]:    Prebuilding sdl2_mixer for armeabi-v7a
+[INFO]:    sdl2_mixer has no prebuild_armeabi_v7a, skipping
+[INFO]:    Applying patches for sdl2_mixer[armeabi-v7a]
+[INFO]:    sdl2_mixer already patched, skipping
+[INFO]:    Prebuilding sdl2_ttf for armeabi-v7a
+[INFO]:    sdl2_ttf has no prebuild_armeabi_v7a, skipping
+[INFO]:    Prebuilding sqlite3 for armeabi-v7a
+[INFO]:    sqlite3 has no prebuild_armeabi_v7a, skipping
+[INFO]:    Prebuilding python3 for armeabi-v7a
+[INFO]:    python3 has no prebuild_armeabi_v7a, skipping
+[INFO]:    Applying patches for python3[armeabi-v7a]
+[INFO]:    python3 already patched, skipping
+[INFO]:    Prebuilding sdl2 for armeabi-v7a
+[INFO]:    sdl2 has no prebuild_armeabi_v7a, skipping
+[INFO]:    Prebuilding setuptools for armeabi-v7a
+[INFO]:    setuptools has no prebuild_armeabi_v7a, skipping
+[INFO]:    Prebuilding six for armeabi-v7a
+[INFO]:    six has no prebuild_armeabi_v7a, skipping
+[INFO]:    Prebuilding pyjnius for armeabi-v7a
+[INFO]:    pyjnius has no prebuild_armeabi_v7a, skipping
+[INFO]:    Applying patches for pyjnius[armeabi-v7a]
+[INFO]:    pyjnius already patched, skipping
+[INFO]:    Prebuilding android for armeabi-v7a
+[INFO]:    android has no prebuild_armeabi_v7a, skipping
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/android-sdl2/armeabi-v7a__ndk_target_21/android
+[INFO]:    <- directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android
+[INFO]:    Prebuilding kivy for armeabi-v7a
+[INFO]:    kivy has no prebuild_armeabi_v7a, skipping
+[INFO]:    # Building recipes
+[INFO]:    Building hostpython3 for armeabi-v7a
+[INFO]:    -> directory context /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+[INFO]:    -> running configure
+          ​working: configure: error: Unexpected output of 'arch' on OSX       Exception in thread background thread for pid 59404:
+Traceback (most recent call last):
+ ​File "/opt/homebrew/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+   ​self.run()
+ ​File "/opt/homebrew/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py", line 910, in run
+   ​self._target(*self._args, **self._kwargs)
+ ​File "/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/lib/python3.9/site-packages/sh.py", line 1683, in wrap
+   ​fn(*rgs, **kwargs)
+ ​File "/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/lib/python3.9/site-packages/sh.py", line 2662, in background_thread
+   ​handle_exit_code(exit_code)
+ ​File "/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/lib/python3.9/site-packages/sh.py", line 2349, in fn
+   ​return self.command.handle_command_exit_code(exit_code)
+ ​File "/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/lib/python3.9/site-packages/sh.py", line 905, in handle_command_exit_code
+   ​raise exc
+sh.ErrorReturnCode_1: 
+
+ ​RAN: /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/configure
+
+ ​STDOUT:
+checking build system type... arm-apple-darwin20.5.0
+checking host system type... arm-apple-darwin20.5.0
+checking for python3.8... no
+checking for python3... python3
+checking for --enable-universalsdk... no
+checking for --with-universal-archs... no
+checking MACHDEP... "darwin"
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/4.2.1
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for --with-cxx-main=<compiler>... no
+checking for g++... no
+configure:
+
+ ​By default, distutils will build C++ extension modules with "g++".
+ ​If this is not intended, then set CXX on the configure command line.
+ ​
+checking for the platform triplet based on compiler characteristics... darwin
+checking for -Wl,--no-as-needed... no
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for the Android API level... not Android
+checking for --with-suffix... 
+checking for case-insensitive build directory... yes
+checking LIBRARY... libpython$(VERSION)$(ABIFLAGS).a
+checking LINKCC... $(PURIFY) $(MAINCC)
+checking for GNU ld... no
+checking for --enable-shared... no
+checking for --enable-profiling... no
+checking LDLIBRARY... libpython$(VERSION)$(ABIFLAGS).a
+checking for ar... ar
+checking for readelf... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for a thread-safe mkdir -p... /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/install-sh -c -d
+checking for --with-pydebug... no
+checking for --with-trace-refs... no
+checking for --with-assertions... no
+checking for --enable-optimizations... no
+checking PROFILE_TASK... -m test --pgo
+checking for --with-lto... no
+checking for llvm-profdata... no
+configure: llvm-profdata found via xcrun: /usr/bin/xcrun llvm-profdata
+checking for -Wextra... yes
+checking whether gcc accepts and needs -fno-strict-aliasing... no
+checking if we can turn off gcc unused result warning... yes
+checking if we can turn off gcc unused parameter warning... yes
+checking if we can turn off gcc missing field initializers warning... yes
+checking if we can turn on gcc mixed sign comparison warning... yes
+checking if we can turn on gcc unreachable code warning... yes
+checking if we can turn on gcc strict-prototypes warning... yes
+checking if we can make implicit function declaration an error in gcc... yes
+checking which compiler should be used... gcc
+checking which MACOSX_DEPLOYMENT_TARGET to use... 11.4
+checking whether pthreads are available without options... yes
+checking whether g++ also accepts flags for thread support... no
+checking for ANSI C header files... (cached) yes
+checking asm/types.h usability... no
+checking asm/types.h presence... no
+checking for asm/types.h... no
+checking crypt.h usability... no
+checking crypt.h presence... no
+checking for crypt.h... no
+checking conio.h usability... no
+checking conio.h presence... no
+checking for conio.h... no
+checking direct.h usability... no
+checking direct.h presence... no
+checking for direct.h... no
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking ieeefp.h usability... no
+checking ieeefp.h presence... no
+checking for ieeefp.h... no
+checking io.h usability... no
+checking io.h presence... no
+checking for io.h... no
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking libintl.h usability... no
+checking libintl.h presence... no
+checking for libintl.h... no
+checking process.h usability... no
+checking process.h presence... no
+checking for process.h... no
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking sched.h usability... yes
+checking sched.h presence... yes
+checking for sched.h... yes
+checking shadow.h usability... no
+checking shadow.h presence... no
+checking for shadow.h... no
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking stropts.h usability... no
+checking stropts.h presence... no
+checking for stropts.h... no
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking sys/devpoll.h usability... no
+checking sys/devpoll.h presence... no
+checking for sys/devpoll.h... no
+checking sys/epoll.h usability... no
+checking sys/epoll.h presence... no
+checking for sys/epoll.h... no
+checking sys/poll.h usability... yes
+checking sys/poll.h presence... yes
+checking for sys/poll.h... yes
+checking sys/audioio.h usability... no
+checking sys/audioio.h presence... no
+checking for sys/audioio.h... no
+checking sys/xattr.h usability... yes
+checking sys/xattr.h presence... yes
+checking for sys/xattr.h... yes
+checking sys/bsdtty.h usability... no
+checking sys/bsdtty.h presence... no
+checking for sys/bsdtty.h... no
+checking sys/event.h usability... yes
+checking sys/event.h presence... yes
+checking for sys/event.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/kern_control.h usability... yes
+checking sys/kern_control.h presence... yes
+checking for sys/kern_control.h... yes
+checking sys/loadavg.h usability... no
+checking sys/loadavg.h presence... no
+checking for sys/loadavg.h... no
+checking sys/lock.h usability... yes
+checking sys/lock.h presence... yes
+checking for sys/lock.h... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/modem.h usability... no
+checking sys/modem.h presence... no
+checking for sys/modem.h... no
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/random.h usability... yes
+checking sys/random.h presence... yes
+checking for sys/random.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/sendfile.h usability... no
+checking sys/sendfile.h presence... no
+checking for sys/sendfile.h... no
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/statvfs.h usability... yes
+checking sys/statvfs.h presence... yes
+checking for sys/statvfs.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking sys/sys_domain.h usability... yes
+checking sys/sys_domain.h presence... yes
+checking for sys/sys_domain.h... yes
+checking sys/termio.h usability... no
+checking sys/termio.h presence... no
+checking for sys/termio.h... no
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking pty.h usability... no
+checking pty.h presence... no
+checking for pty.h... no
+checking libutil.h usability... no
+checking libutil.h presence... no
+checking for libutil.h... no
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking netpacket/packet.h usability... no
+checking netpacket/packet.h presence... no
+checking for netpacket/packet.h... no
+checking sysexits.h usability... yes
+checking sysexits.h presence... yes
+checking for sysexits.h... yes
+checking bluetooth.h usability... no
+checking bluetooth.h presence... no
+checking for bluetooth.h... no
+checking linux/tipc.h usability... no
+checking linux/tipc.h presence... no
+checking for linux/tipc.h... no
+checking linux/random.h usability... no
+checking linux/random.h presence... no
+checking for linux/random.h... no
+checking spawn.h usability... yes
+checking spawn.h presence... yes
+checking for spawn.h... yes
+checking util.h usability... yes
+checking util.h presence... yes
+checking for util.h... yes
+checking alloca.h usability... yes
+checking alloca.h presence... yes
+checking for alloca.h... yes
+checking endian.h usability... no
+checking endian.h presence... no
+checking for endian.h... no
+checking sys/endian.h usability... no
+checking sys/endian.h presence... no
+checking for sys/endian.h... no
+checking sys/sysmacros.h usability... no
+checking sys/sysmacros.h presence... no
+checking for sys/sysmacros.h... no
+checking linux/memfd.h usability... no
+checking linux/memfd.h presence... no
+checking for linux/memfd.h... no
+checking sys/memfd.h usability... no
+checking sys/memfd.h presence... no
+checking for sys/memfd.h... no
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether sys/types.h defines makedev... yes
+checking bluetooth/bluetooth.h usability... no
+checking bluetooth/bluetooth.h presence... no
+checking for bluetooth/bluetooth.h... no
+checking for net/if.h... yes
+checking for linux/netlink.h... no
+checking for linux/qrtr.h... no
+checking for linux/vm_sockets.h... no
+checking for linux/can.h... no
+checking for linux/can/raw.h... no
+checking for linux/can/bcm.h... no
+checking for clock_t in time.h... yes
+checking for makedev... yes
+checking for le64toh... no
+checking for mode_t... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for uid_t in sys/types.h... yes
+checking for ssize_t... yes
+checking for __uint128_t... yes
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+checking size of void *... 8
+checking size of short... 2
+checking size of float... 4
+checking size of double... 8
+checking size of fpos_t... 8
+checking size of size_t... 8
+checking size of pid_t... 4
+checking size of uintptr_t... 8
+checking for long double... yes
+checking size of long double... 8
+checking size of _Bool... 1
+checking size of off_t... 8
+checking whether to enable large file support... no
+checking size of time_t... 8
+checking for pthread_t... yes
+checking size of pthread_t... 8
+checking size of pthread_key_t... 8
+checking whether pthread_key_t is compatible with int... no
+configure: error: Unexpected output of 'arch' on OSX
+
+
+ ​STDERR:
+
+Traceback (most recent call last):                                             
+ ​File "/opt/homebrew/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+   ​return _run_code(code, main_globals, None,
+ ​File "/opt/homebrew/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/runpy.py", line 87, in _run_code
+   ​exec(code, run_globals)
+ ​File "/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 1260, in <module>
+   ​main()
+ ​File "/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android/pythonforandroid/entrypoints.py", line 18, in main
+   ​ToolchainCL()
+ ​File "/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 709, in __init__
+   ​getattr(self, command)(args)
+ ​File "/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 154, in wrapper_func
+   ​build_dist_from_args(ctx, dist, args)
+ ​File "/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 213, in build_dist_from_args
+   ​build_recipes(build_order, python_modules, ctx,
+ ​File "/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android/pythonforandroid/build.py", line 577, in build_recipes
+   ​recipe.build_arch(arch)
+ ​File "/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android/pythonforandroid/recipes/hostpython3/__init__.py", line 98, in build_arch
+   ​shprint(sh.Command(join(recipe_build_dir, 'configure')))
+ ​File "/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/python-for-android/pythonforandroid/logger.py", line 167, in shprint
+   ​for line in output:
+ ​File "/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/lib/python3.9/site-packages/sh.py", line 953, in next
+   ​self.wait()
+ ​File "/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/lib/python3.9/site-packages/sh.py", line 879, in wait
+   ​self.handle_command_exit_code(exit_code)
+ ​File "/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/lib/python3.9/site-packages/sh.py", line 905, in handle_command_exit_code
+   ​raise exc
+sh.ErrorReturnCode_1: 
+
+ ​RAN: /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/configure
+
+ ​STDOUT:
+checking build system type... arm-apple-darwin20.5.0
+checking host system type... arm-apple-darwin20.5.0
+checking for python3.8... no
+checking for python3... python3
+checking for --enable-universalsdk... no
+checking for --with-universal-archs... no
+checking MACHDEP... "darwin"
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/4.2.1
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for --with-cxx-main=<compiler>... no
+checking for g++... no
+configure:
+
+ ​By default, distutils will build C++ extension modules with "g++".
+ ​If this is not intended, then set CXX on the configure command line.
+ ​
+checking for the platform triplet based on compiler characteristics... darwin
+checking for -Wl,--no-as-needed... no
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for the Android API level... not Android
+checking for --with-suffix... 
+checking for case-insensitive build directory... yes
+checking LIBRARY... libpython$(VERSION)$(ABIFLAGS).a
+checking LINKCC... $(PURIFY) $(MAINCC)
+checking for GNU ld... no
+checking for --enable-shared... no
+checking for --enable-profiling... no
+checking LDLIBRARY... libpython$(VERSION)$(ABIFLAGS).a
+checking for ar... ar
+checking for readelf... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for a thread-safe mkdir -p... /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/install-sh -c -d
+checking for --with-pydebug... no
+checking for --with-trace-refs... no
+checking for --with-assertions... no
+checking for --enable-optimizations... no
+checking PROFILE_TASK... -m test --pgo
+checking for --with-lto... no
+checking for llvm-profdata... no
+configure: llvm-profdata found via xcrun: /usr/bin/xcrun llvm-profdata
+checking for -Wextra... yes
+checking whether gcc accepts and needs -fno-strict-aliasing... no
+checking if we can turn off gcc unused result warning... yes
+checking if we can turn off gcc unused parameter warning... yes
+checking if we can turn off gcc missing field initializers warning... yes
+checking if we can turn on gcc mixed sign comparison warning... yes
+checking if we can turn on gcc unreachable code warning... yes
+checking if we can turn on gcc strict-prototypes warning... yes
+checking if we can make implicit function declaration an error in gcc... yes
+checking which compiler should be used... gcc
+checking which MACOSX_DEPLOYMENT_TARGET to use... 11.4
+checking whether pthreads are available without options... yes
+checking whether g++ also accepts flags for thread support... no
+checking for ANSI C header files... (cached) yes
+checking asm/types.h usability... no
+checking asm/types.h presence... no
+checking for asm/types.h... no
+checking crypt.h usability... no
+checking crypt.h presence... no
+checking for crypt.h... no
+checking conio.h usability... no
+checking conio.h presence... no
+checking for conio.h... no
+checking direct.h usability... no
+checking direct.h presence... no
+checking for direct.h... no
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking ieeefp.h usability... no
+checking ieeefp.h presence... no
+checking for ieeefp.h... no
+checking io.h usability... no
+checking io.h presence... no
+checking for io.h... no
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking libintl.h usability... no
+checking libintl.h presence... no
+checking for libintl.h... no
+checking process.h usability... no
+checking process.h presence... no
+checking for process.h... no
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking sched.h usability... yes
+checking sched.h presence... yes
+checking for sched.h... yes
+checking shadow.h usability... no
+checking shadow.h presence... no
+checking for shadow.h... no
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking stropts.h usability... no
+checking stropts.h presence... no
+checking for stropts.h... no
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking sys/devpoll.h usability... no
+checking sys/devpoll.h presence... no
+checking for sys/devpoll.h... no
+checking sys/epoll.h usability... no
+checking sys/epoll.h presence... no
+checking for sys/epoll.h... no
+checking sys/poll.h usability... yes
+checking sys/poll.h presence... yes
+checking for sys/poll.h... yes
+checking sys/audioio.h usability... no
+checking sys/audioio.h presence... no
+checking for sys/audioio.h... no
+checking sys/xattr.h usability... yes
+checking sys/xattr.h presence... yes
+checking for sys/xattr.h... yes
+checking sys/bsdtty.h usability... no
+checking sys/bsdtty.h presence... no
+checking for sys/bsdtty.h... no
+checking sys/event.h usability... yes
+checking sys/event.h presence... yes
+checking for sys/event.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/kern_control.h usability... yes
+checking sys/kern_control.h presence... yes
+checking for sys/kern_control.h... yes
+checking sys/loadavg.h usability... no
+checking sys/loadavg.h presence... no
+checking for sys/loadavg.h... no
+checking sys/lock.h usability... yes
+checking sys/lock.h presence... yes
+checking for sys/lock.h... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/modem.h usability... no
+checking sys/modem.h presence... no
+checking for sys/modem.h... no
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/random.h usability... yes
+checking sys/random.h presence... yes
+checking for sys/random.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/sendfile.h usability... no
+checking sys/sendfile.h presence... no
+checking for sys/sendfile.h... no
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/statvfs.h usability... yes
+checking sys/statvfs.h presence... yes
+checking for sys/statvfs.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking sys/sys_domain.h usability... yes
+checking sys/sys_domain.h presence... yes
+checking for sys/sys_domain.h... yes
+checking sys/termio.h usability... no
+checking sys/termio.h presence... no
+checking for sys/termio.h... no
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking pty.h usability... no
+checking pty.h presence... no
+checking for pty.h... no
+checking libutil.h usability... no
+checking libutil.h presence... no
+checking for libutil.h... no
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking netpacket/packet.h usability... no
+checking netpacket/packet.h presence... no
+checking for netpacket/packet.h... no
+checking sysexits.h usability... yes
+checking sysexits.h presence... yes
+checking for sysexits.h... yes
+checking bluetooth.h usability... no
+checking bluetooth.h presence... no
+checking for bluetooth.h... no
+checking linux/tipc.h usability... no
+checking linux/tipc.h presence... no
+checking for linux/tipc.h... no
+checking linux/random.h usability... no
+checking linux/random.h presence... no
+checking for linux/random.h... no
+checking spawn.h usability... yes
+checking spawn.h presence... yes
+checking for spawn.h... yes
+checking util.h usability... yes
+checking util.h presence... yes
+checking for util.h... yes
+checking alloca.h usability... yes
+checking alloca.h presence... yes
+checking for alloca.h... yes
+checking endian.h usability... no
+checking endian.h presence... no
+checking for endian.h... no
+checking sys/endian.h usability... no
+checking sys/endian.h presence... no
+checking for sys/endian.h... no
+checking sys/sysmacros.h usability... no
+checking sys/sysmacros.h presence... no
+checking for sys/sysmacros.h... no
+checking linux/memfd.h usability... no
+checking linux/memfd.h presence... no
+checking for linux/memfd.h... no
+checking sys/memfd.h usability... no
+checking sys/memfd.h presence... no
+checking for sys/memfd.h... no
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether sys/types.h defines makedev... yes
+checking bluetooth/bluetooth.h usability... no
+checking bluetooth/bluetooth.h presence... no
+checking for bluetooth/bluetooth.h... no
+checking for net/if.h... yes
+checking for linux/netlink.h... no
+checking for linux/qrtr.h... no
+checking for linux/vm_sockets.h... no
+checking for linux/can.h... no
+checking for linux/can/raw.h... no
+checking for linux/can/bcm.h... no
+checking for clock_t in time.h... yes
+checking for makedev... yes
+checking for le64toh... no
+checking for mode_t... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for uid_t in sys/types.h... yes
+checking for ssize_t... yes
+checking for __uint128_t... yes
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+checking size of void *... 8
+checking size of short... 2
+checking size of float... 4
+checking size of double... 8
+checking size of fpos_t... 8
+checking size of size_t... 8
+checking size of pid_t... 4
+checking size of uintptr_t... 8
+checking for long double... yes
+checking size of long double... 8
+checking size of _Bool... 1
+checking size of off_t... 8
+checking whether to enable large file support... no
+checking size of time_t... 8
+checking for pthread_t... yes
+checking size of pthread_t... 8
+checking size of pthread_key_t... 8
+checking whether pthread_key_t is compatible with int... no
+configure: error: Unexpected output of 'arch' on OSX
+
+
+ ​STDERR:
+
+# Command failed: /Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/bin/python -m pythonforandroid.toolchain create --dist_name=kvcalc --bootstrap=sdl2 --requirements=python3,kivy --arch armeabi-v7a --copy-libs --color=always --storage-dir="/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a" --ndk-api=21
+# ENVIRONMENT:
+#     TMPDIR = '/var/folders/_x/xd2ms3z958s6pfllwphw48vm0000gn/T/'
+#     __CFBundleIdentifier = 'com.apple.Terminal'
+#     XPC_FLAGS = '0x0'
+#     TERM = 'xterm-256color'
+#     SSH_AUTH_SOCK = '/private/tmp/com.apple.launchd.kWVqHx5hId/Listeners'
+#     XPC_SERVICE_NAME = '0'
+#     TERM_PROGRAM = 'Apple_Terminal'
+#     TERM_PROGRAM_VERSION = '440'
+#     TERM_SESSION_ID = 'BC50B2C3-D2A6-4DF6-B2E4-B28370367B9E'
+#     SHELL = '/bin/zsh'
+#     HOME = '/Users/jaydenl'
+#     LOGNAME = 'jaydenl'
+#     USER = 'jaydenl'
+#     PATH = '/Users/jaydenl/.buildozer/android/platform/apache-ant-1.9.4/bin:/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/bin:/Users/jaydenl/opt/anaconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands'
+#     SHLVL = '2'
+#     PWD = '/Users/jaydenl/Dev/kivy/kvcalc'
+#     OLDPWD = '/Users/jaydenl/Dev/kivy/kvcalc/.buildozer'
+#     HOMEBREW_PREFIX = '/opt/homebrew'
+#     HOMEBREW_CELLAR = '/opt/homebrew/Cellar'
+#     HOMEBREW_REPOSITORY = '/opt/homebrew'
+#     MANPATH = '/opt/homebrew/share/man:/opt/homebrew/share/man:/opt/homebrew/share/man::::'
+#     INFOPATH = '/opt/homebrew/share/info:/opt/homebrew/share/info:/opt/homebrew/share/info:'
+#     ANDROIDSDK = '/Users/jaydenl/.buildozer/android/platform/android-sdk'
+#     ANDROIDNDK = '/Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/android-ndk-r19c'
+#     ANDROIDAPI = '27'
+#     NDKAPI = '21'
+#     ANDROIDNDKVER = 'r19c'
+#     ZSH = '/Users/jaydenl/.oh-my-zsh'
+#     PAGER = 'less'
+#     LESS = '-R'
+#     LSCOLORS = 'Gxfxcxdxbxegedabagacad'
+#     CONDA_EXE = '/Users/jaydenl/opt/anaconda3/bin/conda'
+#     _CE_M = ''
+#     _CE_CONDA = ''
+#     CONDA_PYTHON_EXE = '/Users/jaydenl/opt/anaconda3/bin/python'
+#     CONDA_SHLVL = '0'
+#     __CF_USER_TEXT_ENCODING = '0x1F5:0x0:0x0'
+#     PIP_DISABLE_PIP_VERSION_CHECK = '1'
+#     PYTHONDONTWRITEBYTECODE = '1'
+#     PIP_PYTHON_PATH = '/opt/homebrew/opt/python@3.9/bin/python3.9'
+#     PIPENV_ACTIVE = '1'
+#     VIRTUAL_ENV = '/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP'
+#     PS1 = ('(kivy) %(?:%{\x1b[01;32m%}➜ :%{\x1b[01;31m%}➜ ) '
+​'%{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)')
+#     LANG = 'en_US.UTF-8'
+#     _ = '/Users/jaydenl/.local/share/virtualenvs/kivy-QBsJbwoP/bin/buildozer'
+#     PACKAGES_PATH = '/Users/jaydenl/.buildozer/android/packages'
+#     ANDROIDMINAPI = '21'
+# 
+# Buildozer failed to execute the last command
+# The error might be hidden in the log above this error
+# Please read the full log, and search for it before
+# raising an issue with buildozer itself.
+# In case of a bug report, please add a full log with log_level = 2
