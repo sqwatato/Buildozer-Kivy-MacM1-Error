@@ -28,7 +28,9 @@ I removed my spec file but you can still view it in the github.
 
 My new error seems to be something with c++? The error logs mentions gcc a lot and pointer which I assume are from c++. I'm thinking I have the wrong version or a dependency that I don't have installed although I really have no clue.
 
-Here's the error. Full error in github.
+Here's the error. 
+Full Error in here. Spec file, python app code, and previous error in Old Error file.
+
 ```
 /Users/jaydenl/Dev/kivy/kvcalc/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/posixmodule.c:9084:15: error: implicit declaration of function 'sendfile' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
         ret = sendfile(in, out, offset, &sbytes, &sf, flags);
